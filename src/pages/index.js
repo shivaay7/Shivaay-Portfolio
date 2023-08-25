@@ -36,14 +36,15 @@ export default function Home() {
                 projects, showcasing my expertise in MERN and web development.
               </p>
               <div className=" flex items-center self-start -mt-2 lg:self-center">
-                <a
-                  href="/SHIVAM_Mishra_11072023.pdf"
-                  target={"_blank"}
-                  className="flex items-center bg-dark text-light px-6 py-2.5 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light hover:dark:shadow-[inset_0px_0px_30px_rgba(255,255,255,0.2)] md:p-2 md:px-4 md:text-base "
-                  download={true}
-                >
-                  Resume <LinkArrow className={"w-6 ml=1 "} />
-                </a>
+               <Link href="/SHIVAM_Mishra_11072023.pdf">
+                  <a
+                    target="_blank"
+                    className="flex items-center bg-dark text-light px-6 py-2.5 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light hover:dark:shadow-[inset_0px_0px_30px_rgba(255,255,255,0.2)] md:p-2 md:px-4 md:text-base "
+                    download
+                  >
+                    Resume <LinkArrow className="w-6 ml-1" />
+                  </a>
+                </Link>
                 <Link
                   href="mailto:shivaay7613@gmail.com"
                   target={"_blank"}
