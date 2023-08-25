@@ -149,8 +149,8 @@ const projects = () => {
                   "Procure, a mernstack application using ReactJS, NodeJS, Bootstrap, MongoDB, ExpressJS, BcryptJS, Context-API"
                 }
                 img={p2}
-                links="https://github.com"
-                github="https://github.com" // Replace with actual GitHub link
+                links="https://procurefrontend.onrender.com/"
+                github="https://github.com/shivaay7/Shivaay-Portfolio" // Replace with actual GitHub link
               />
             </div>
             <div className="col-span-6 xs:col-span-12">
