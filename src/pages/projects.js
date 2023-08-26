@@ -8,7 +8,7 @@ import p1 from "../../public/images/projects/canvas (1).png"; // Remove curly br
 import p2 from "../../public/images/projects/canvas (2).png";
 import p3 from "../../public/images/projects/canvas (3).png";
 import p4 from "../../public/images/projects/canvas (6).png";
-import p5 from "../../public/images/projects/canvas (5).png";
+import p5 from "../../public/images/projects/canvas (4).png";
 import p6 from "../../public/images/projects/canvas.png";
 import Head from "next/head"; // Remove curly braces for default import
 import TransitionEffect from "@/components/TransitionEffect";
