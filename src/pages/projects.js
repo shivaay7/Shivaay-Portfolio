@@ -155,11 +155,11 @@ const projects = () => {
             </div>
             <div className="col-span-6 xs:col-span-12">
               <Project
-                type={"Portfolio Template"}
-                title={"Instant Ramen"}
+                type={"Frontend Template"}
+                title={"Furniture!"}
                 img={p5}
-                links="https://shivaay7.github.io/B19-Protfolio/"
-                github="https://github.com/shivaay7/B19-Protfolio" // Replace with actual GitHub link
+                links="https://shivaay7.github.io/FurnitureStore/"
+                github="https://github.com/shivaay7/FurnitureStore/" // Replace with actual GitHub link
               />
             </div>
             <div className="col-span-6 xs:col-span-12">
