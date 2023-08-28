@@ -36,7 +36,7 @@ const Education = () => {
                 <div className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
                     <motion.div style={{ scaleY: scrollYProgress }} ref={ref} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-2px md:left-[30px] xs:left-[18px] xs:w-[1.5px]' />
                     <ul className='w-full flex flex-col items-start justify-between ml-4  xs:ml-2'>
-                        <Details type={"Bachelor of Technology In Computer Science and Engineering"} time={"2022-2024"} place={"LNCT Excellence Bhopal(Madhya Pradesh) India"} info={"Relevant courses included Date Structures and Algorithms, Computer Systems and Networking"} />
+                        <Details type={"Bachelor of Technology In Computer Science and Engineering"} time={"2020-2024"} place={"LNCT Excellence Bhopal(Madhya Pradesh) India"} info={"Relevant courses included Date Structures and Algorithms, Computer Systems and Networking"} />
 
                         <Details type={"Inter Schooling"} time={"2017-2019"} place={"Kendriya Vidyalaya S.E.C.L. Dhanpuri(M.P.) India"} info={"CourseWork included Specification in PCM with Computer Science"} />
 
